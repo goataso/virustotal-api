@@ -1,10 +1,7 @@
 /**
- * @author Typed By goataso
+ * @author Remisa Yousefvand <remisa.yousefvand@gmail.com> 
  * @version 1.1.7
  */
-const ERROR_204 = 'Request rate limit exceeded. You are making more requests than allowed.'
-const ERROR_400 = 'Bad request. Your request was somehow incorrect. This can be caused by missing arguments or arguments with wrong values.'
-const ERROR_403 = 'Forbidden. You don\'t have enough privileges to make the request. You may be doing a request without providing an API key or you may be making a request to a Private API without having the appropriate privileges.'
 
 declare module 'virustotal-api' {
     /**
